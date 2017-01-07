@@ -1,0 +1,110 @@
+<!-- Each card should be an article.
+Each card should take up 30% of the width of the browser window.
+Each product should contain a header element that, itself, contains an h2 element where the product's title will be written.
+Each product should have three sections.
+The first section should contain three child block elements.
+    The first element contains the product image.
+    The second element contains the product description.
+    The third element contains the product availability (e.g. "Available" or "Not Available")
+The second section contains product specifications.
+    This section should have a header containing the word "Specifications"
+    This section should contain two block elements
+        The first block element specifies the size.
+        The second block element specifies the weight.
+    This section should contain a footer.
+        The footer contains text stating when the product specifications become invalid.
+The third section contains the product pricing.
+    This section should contain a header.
+    This section should contain three block elements.
+        Each block element contains information about the price for different quantities.
+
+Additional style requirements:
+The entire card has a solid 1px border that is lightblue.
+The card title has a dotted 1px border that is lightgray.
+The title and product image are centered.
+Notice that the text for the description in the image is justified.
+The text for the product specification details and pricing details is bold.
+The availability element extends the full width of the card, with a dark grey background and yellow text. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>NSS HTML/CSS CARDS EXERCISE</title>
+        <link rel="stylesheet" type="text/css" href="normalize.css"
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Nifty Noms Doll Shop</h1>
+        </header>
+
+    <div class="product-card">
+        <article>
+            <header>
+                <h2 class="product-name">Jessica Doll</h2>
+            </header>
+            <img class="product-photo" src="images/jessicadoll.jpg" alt="a handmade doll with brown, curly hair and green eyes">
+            <p class="description">Like all of our dolls, Jessica is handmade from top to bottom. She is made from soft knit fabric in a light tan colorway and stuffed with wool sourced from right here in Middle Tennessee! Her curly brown hair is made from mohair locks and her dress is sewn with quilting cotton. Her shoes are crocheted with wool yarn. She has green embrodered eyes and lightly blushed cheeks. Freckles can be added at no charge. She is 18" tall and can wear American Girl clothing (or any clothing made for an 18 inch doll). All seams are double stiched to ensure she lasts through years of hugs and playtime.  </p>
+            <p class="availability">Available</p>
+            <h3>Specifications</h3>
+                <p class="specifications">Size: 18"</p>
+                <p class="specifications">Weight: 15 oz. (weighted dolls available at additional charge)</p>
+                <footer class="product-footer">**Since each doll is handmade, specifications are unque to each piece. Specifications are considered valid only for the specific doll mentioned.**</footer>
+                <h3>Pricing:</h3>
+                    <p class="specifications">Jessica (as pictured): $140</p>
+                    <p class="specifications">Additional Dress: $15/each</p>
+                    <p class="specifications">Add weighted beads: $30</p>
+                    <p class="specifications">Different hair color/texture: $50</p>
+        </article>
+    </div>
+
+    <div class="product-card">
+        <article>
+            <header>
+                <h2 class="product-name">Jasmine Doll</h2>
+            </header>
+            <img class="product-photo" src="images/jasminedoll.jpg" alt="a handmade doll with black, curly hair and brown eyes">
+            <p class="description">Like all of our dolls, Jasmine is handmade from top to bottom. She is made from soft knit fabric in a medium cocoa colorway and stuffed with wool sourced from right here in Middle Tennessee! Her kinky dark hair is made from mohair locks. Her jumper and shoes are sewn with quilting cotton. She has dark brown embrodered eyes and lightly blushed cheeks. Freckles can be added at no charge. She is 18" tall and can wear American Girl clothing (or any clothing made for an 18 inch doll). All seams are double stiched to ensure she lasts through years of hugs and playtime.</p>
+            <p class="availability">Available</p>
+            <h3>Specifications</h3>
+                <p class="specifications">Size: 18"</p>
+                <p class="specifications">Weight: 16.5 oz. (weighted dolls available at additional charge)</p>
+                <footer class="product-footer">**Since each doll is handmade, specifications are unque to each piece. Specifications are considered valid only for the specific doll mentioned.**</footer>
+                <h3>Pricing:</h3>
+                    <p class="specifications">Jasmine (as pictured): $140</p>
+                    <p class="specifications">Additional Dress: $15/each</p>
+                    <p class="specifications">Add weighted beads: $30</p>
+                    <p class="specifications">Different hair color/texture: $50</p>
+        </article>
+    </div>
+
+    <div class="product-card">
+        <article>
+            <header>
+                <h2 class="product-name">Lilly Doll</h2>
+            </header>
+            <img class="product-photo" src="images/lillydoll.jpg" alt="a handmade doll with auburn, wavy hair and blue eyes">
+            <p class="description">Like all of our dolls, Lilly is handmade from top to bottom. She is made from soft knit fabric in a light tan colorway and stuffed with wool sourced from right here in Middle Tennessee! Her wavy auburn hair is made from mohair locks. Her dress is sewn with quilting cotton and her shoes are crochet with wool yarn. She has blue embrodered eyes, lightly blushed cheek, and freckles.Due to the ink used, her freckles cannot be removed. She is 18" tall and can wear American Girl clothing (or any clothing made for an 18 inch doll). All seams are double stiched to ensure she lasts through years of hugs and playtime.</p>
+            <p class="availability">Available</p>
+            <h3>Specifications</h3>
+                <p class="specifications">Size: 18"</p>
+                <p class="specifications">Weight: 15 oz. (weighted dolls available at additional charge)</p>
+                <footer class="product-footer">**Since each doll is handmade, specifications are unque to each piece. Specifications are considered valid only for the specific doll mentioned.**</footer>
+                <h3>Pricing:</h3>
+                    <p class="specifications">Jessica (as pictured): $140</p>
+                    <p class="specifications">Additional Dress: $15/each</p>
+                    <p class="specifications">Add weighted beads: $30</p>
+                    <p class="specifications">Different hair color/texture: $50</p>
+        </article>
+    </div>
+
+        <footer class="main-footer">
+            <p>&copy; 2016 Kayla Brewer.</p>
+        </footer>
+
+    </body>
+
+</html>
